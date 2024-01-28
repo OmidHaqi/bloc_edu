@@ -18,7 +18,8 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //ریپازیتوری پرووایدر شرایطی رو فراهم میکنه که بتونسیم در اجرای ا.ولیه داده های رو از ریپازیتوری دریافت و مقدار دهی کنیم
+      //ریپازیتوری پرووایدر شرایطی رو فراهم میکنه که بتونسیم
+      // در اجرای اولیه داده های رو از ریپازیتوری دریافت و مقدار دهی کنیم
       //ریپازیتوری پروایدر برای یک بار داده ها را از سرور میگیرد
         home: RepositoryProvider(
           create: (BuildContext context) => Repository(),
