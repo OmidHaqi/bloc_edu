@@ -1,3 +1,4 @@
+import 'package:bloc_edu/model/article_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/app_event.dart';
@@ -5,8 +6,8 @@ import '../bloc/app_state.dart';
 import '../bloc/blocs.dart';
 import '../repo/repo.dart';
 
-class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
