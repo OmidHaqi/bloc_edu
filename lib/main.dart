@@ -21,11 +21,12 @@ class _MyAppState extends State<MyApp> {
       //ریپازیتوری پرووایدر شرایطی رو فراهم میکنه که بتونسیم
       // در اجرای اولیه داده های رو از ریپازیتوری دریافت و مقدار دهی کنیم
       //ریپازیتوری پروایدر برای یک بار داده ها را از سرور میگیرد
-        home: RepositoryProvider(
-          create: (BuildContext context) => Repository(),
-          child: const Scaffold(
-            body: HomePage(),
-          ),
-        ));
+      home: RepositoryProvider(
+        create: (BuildContext context) => Repository(),
+        child: const Scaffold(
+          body: HomePage(),
+        ),
+      ),
+    );
   }
 }
